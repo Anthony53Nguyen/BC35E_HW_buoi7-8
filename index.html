@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS7-8</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header" style="color: blue; font-size:large; text-align:center">
+                        <b>Practicing Array
+                        </b>
+                    </div>
+                    <div class="card-body" onclick="buildArray()">
+                        <button id = "build" class="btn btn-success">Build Array</button>   
+                    </div>
+                    <div id="arr" class="card-footer text-muted">
+                    </div>
+                    <div class="card-body" onclick="printStats()">
+                        <button id = "stat" class="btn btn-success">Print Array Stats</button>   
+                    </div>
+                    <div id="outStats" class="card-footer text-muted">
+                    </div>
+                    <div class="card-body" onclick="swapPosition()">
+                        <button id = "swap" class="btn btn-success">Swapping 2 elements of arr</button>   
+                    </div>
+                    <div id="outSwap" class="card-footer text-muted">
+                    </div>
+                    <div class="card-body" onclick="sorting()">
+                        <button id = "sort" class="btn btn-success">Sort array increasing order</button>   
+                    </div>
+                    <div id="outSort" class="card-footer text-muted">
+                    </div>
+                    <div class="card-body" onclick="firstPrime()">
+                        <button id = "prime" class="btn btn-success">First prime in array</button>   
+                    </div>
+                    <div id="outPrime" class="card-footer text-muted">
+                    </div>
+                    <div class="card-body" onclick="realArray()">
+                        <button id = "real" class="btn btn-success">Real array</button>   
+                    </div>
+                    <div id="outReal" class="card-footer text-muted">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+<!-- Jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- BS4.6 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+<script src="./js/main.js"></script>
+</body>
+</html>
