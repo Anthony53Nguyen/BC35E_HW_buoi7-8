@@ -101,7 +101,13 @@ function realArray() {
 
     var res = "<p>Real Array: [" + realArr + "]<br><br>";
     res += "Cau9: Number of whole numbers: " + numWhole + "<br>Cau10: ";
-    res += numPos >= numNeg ? "More positive numbers than negative numbers" : "More negative numbers than positive numbers";
+    if (numPos > numNeg) {
+        res += "More positive numbers than negative numbers";
+    } else if (numPos < numNeg) {
+        res += "More negative numbers than positive numbers";
+    } else {
+        res += "Equal number of positive and negative numbers";
+    }
 
     document.getElementById("outReal").innerHTML = res;
 }
